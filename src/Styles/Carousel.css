@@ -1,0 +1,48 @@
+@import url("Variables.css");
+.bottom-bar{
+    background-color: var(--theme);
+    color: black;
+    /* display: flex; */
+    width:80%;
+    min-height: 50px;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+    left: auto;
+    right: auto;
+    align-self: center;
+    position: absolute;
+    top: 555px;
+    border-radius: 10px;
+    padding: 12px;
+}
+.slider-content{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.slider-content img{
+  min-width: 30px;
+  max-height: 30px;
+}
+.slider-content div{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.slider-content p{
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27.6px;
+}
+.slider-content  span{
+  color: black !important;
+  font-size: 10px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 768px) {
+  .slider-content div{
+      margin-left: 30px;
+  }
+}
