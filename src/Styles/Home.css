@@ -351,7 +351,7 @@ body {
   max-width: 100%;
 }
 .bottom-banner2 img {
-  max-width: 157px;
+  max-width: 417px;
 }
 .bottom-banner2 ul {
   margin-left: 0 !important;
@@ -469,6 +469,9 @@ body {
   }
   .download-buttons {
     margin-bottom: 34px;
+  }
+  .bottom-banner2 img{
+    max-width: 250px;
   }
 
 
