@@ -1,0 +1,108 @@
+@import url("Variables.css");
+
+.footer-container {
+  background-color: var(--background);
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer-container > div {
+}
+.footer-container > div > span {
+  color: var(--theme);
+  font-weight: 400;
+  font-size: 20px;
+}
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 15px;
+}
+.footer-container ul li {
+  padding: 5px;
+  padding-left: 0;
+  text-decoration: underline;
+}
+.footer-container ul li:hover {
+  color: var(--theme);
+  cursor: pointer;
+}
+.footer-logo-container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo-container img {
+  max-width: 156px;
+  max-height: 51px;
+}
+.footer-logo-container span {
+  color: white !important;
+  font-size: 12px !important;
+  max-width: 290px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.footer-input-email {
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  min-width: 70%;
+}
+.footer-container p {
+  font-size: 13px !important;
+  margin-top: 20px;
+}
+.footer-send-button-email {
+  background-color: var(--theme);
+  padding: 12px;
+  margin-left: 10px;
+  border-radius: 6px;
+}
+.main-footer-container{
+    background-color: var(--background);
+    color: white;
+    width: 100%;
+}
+.copyright-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 20px !important;
+  }
+  .footer-container ul {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    /* display: flex;
+    flex-direction: column; */
+  }
+  .footer-container ul li{
+    padding: 10px;
+
+  }
+  .footer-logo-container {
+    flex-direction: row;
+    /* text-align: center; */
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container ul li{
+    flex-wrap: wrap;
+    white-space: nowrap;
+  }
+  }
