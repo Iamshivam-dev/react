@@ -466,8 +466,9 @@ body {
   }
   .download-buttons img{
     width: 100px;
+  }
+  .download-buttons {
     margin-bottom: 34px;
-
   }
 
 
