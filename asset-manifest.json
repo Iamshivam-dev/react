@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react/static/css/main.9811645f.css",
+    "main.js": "/react/static/js/main.e4306328.js",
+    "static/js/787.0a36122f.chunk.js": "/react/static/js/787.0a36122f.chunk.js",
+    "static/media/home-background.png": "/react/static/media/home-background.d2a7dc1184c90727073e.png",
+    "static/media/yellow-taxi.png": "/react/static/media/yellow-taxi.62019de5d419d0dd2452.png",
+    "static/media/Helvetica.ttf": "/react/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
+    "static/media/banner-big-car.png": "/react/static/media/banner-big-car.8551d313ff79193d6227.png",
+    "static/media/car-img-5.png": "/react/static/media/car-img-5.840ee61da7d9bd0db466.png",
+    "static/media/phones-two-pic.png": "/react/static/media/phones-two-pic.31f5e4f99c951bbf5c33.png",
+    "static/media/rentals-taxi.png": "/react/static/media/rentals-taxi.ad8d58dee5abef3a5c5b.png",
+    "static/media/city-taxi.png": "/react/static/media/city-taxi.7208b5b4e4f1dffaefe4.png",
+    "static/media/slick.svg": "/react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react/index.html",
+    "main.9811645f.css.map": "/react/static/css/main.9811645f.css.map",
+    "main.e4306328.js.map": "/react/static/js/main.e4306328.js.map",
+    "787.0a36122f.chunk.js.map": "/react/static/js/787.0a36122f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9811645f.css",
+    "static/js/main.e4306328.js"
+  ]
+}
